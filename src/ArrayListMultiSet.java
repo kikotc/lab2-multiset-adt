@@ -34,8 +34,7 @@ public class ArrayListMultiSet extends MultiSet {
      */
     @Override
     boolean contains(int item) {
-        if  (lst.contains(item)) return true;
-        return false;
+        return lst.contains(item);
     }
 
     /**
@@ -43,8 +42,7 @@ public class ArrayListMultiSet extends MultiSet {
      */
     @Override
     boolean isEmpty() {
-        if  (lst.isEmpty()) return true;
-        return false;
+        return lst.isEmpty();
     }
 
     /**
